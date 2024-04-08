@@ -1,0 +1,32 @@
+.About{
+    margin-bottom: 5rem;
+}
+.About .content .left{
+    width: 60%;
+}
+.About .content .left .img_box{
+    position: relative;
+}
+.About .content .left .img_box .content{
+    position: absolute;
+    bottom: 0;
+    background-color: rgba(0,0,0,0.7);
+    width: 100%;
+    padding: 1rem 0.5rem;
+}
+.About .content .left .img_box .content span{
+    font-weight: 500;
+}
+.About .content .left .sec img{
+ border-radius: 20px;
+}
+.About .content .right{
+    width: 40%;
+    height: 40px;
+    position: sticky;
+    top: 2%;
+}
+.About .content .right p{
+    margin-top: 0.5rem;
+    margin-bottom: 2rem;
+}

@@ -1,0 +1,28 @@
+
+.Hero .heading h1 span{
+    color: rgb(247, 27, 64);
+}
+.Hero .heading p span{
+    color: rgb(247, 27, 64);
+    font-weight: 600;
+}
+.Hero .heading p span:nth-child(2){
+    color: rgb(163, 247, 27);
+    font-weight: 600;
+}
+.Hero .images{
+display: grid;
+grid-template-columns: repeat(5,1fr);
+height: max-content;
+}
+.Hero .images img{
+    width: 100%;
+}
+@keyframes heroanimation1 {
+    from{
+     color: white;
+    }
+    to{
+        color: rgb(247, 27, 64);
+    }
+}

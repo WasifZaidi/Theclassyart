@@ -1,0 +1,11 @@
+.Navbar{
+    padding: 1rem 0rem;
+    padding-bottom: 0rem;
+}
+.Navbar .logo{
+    max-width: 20rem;
+    width: max-content;
+}
+.Navbar ul li .body_text_small{
+    font-size: 1.2rem;
+}
